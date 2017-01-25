@@ -12,6 +12,7 @@
 #import "UIKitHiddenVC.h"
 #import "CAReplicatorMusicVC.h"
 #import "CABaseLayerVC.h"
+#import "CoreAnimationVC.h"
 @interface ViewController ()
 
 @end
@@ -74,10 +75,14 @@
     }
     else if (indexPath.row == 3)
     {
+        cell.textLabel.text = @"CoreAnimation三种动画";
+    }
+    else if (indexPath.row == 4)
+    {
         cell.textLabel.text = @"CAReplicatorLayer (love)";
 
     }
-    else if (indexPath.row == 4)
+    else if (indexPath.row == 5)
     {
         cell.textLabel.text = @"CAReplicatorLayer (music)";
 
@@ -111,16 +116,22 @@
     }
     else if (indexPath.row == 3)
     {
+        CoreAnimationVC *core = [[CoreAnimationVC alloc ] init];
+        [self.navigationController pushViewController:core animated:YES];
+        
+    }
+    else if (indexPath.row == 4)
+    {
         CAReplicatorLayerVC *layer = [[CAReplicatorLayerVC alloc] init];
         [self.navigationController pushViewController:layer animated:YES];
     }
-    else if (indexPath.row == 4)
+    else if (indexPath.row == 5)
     {
         CAReplicatorMusicVC *music = [[CAReplicatorMusicVC alloc] init];
         [self.navigationController pushViewController:music animated:YES];
     
     }
-    else if (indexPath.row == 5)
+    else if (indexPath.row == 6)
     {
     
     }

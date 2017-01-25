@@ -49,6 +49,38 @@
             endingLineNumber = "51"
             landmarkName = "-btnclick"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[showHiddenVC btnclick]"
+                  moduleName = "CoreAnimation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mingzhiliu/Desktop/testttt/CoreAnimation/CoreAnimation/showHiddenVC.m"
+                  timestampString = "507018960.835079"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__24-[showHiddenVC btnclick]_block_invoke"
+                  moduleName = "CoreAnimation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mingzhiliu/Desktop/testttt/CoreAnimation/CoreAnimation/showHiddenVC.m"
+                  timestampString = "507018960.836493"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -186,7 +218,7 @@
                   moduleName = "CoreAnimation"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mingzhiliu/Desktop/testttt/CoreAnimation/CoreAnimation/UIKitHiddenVC.m"
-                  timestampString = "506327464.405829"
+                  timestampString = "507018960.856405"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "85"
@@ -201,7 +233,7 @@
                   moduleName = "CoreAnimation"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mingzhiliu/Desktop/testttt/CoreAnimation/CoreAnimation/UIKitHiddenVC.m"
-                  timestampString = "506327464.407309"
+                  timestampString = "507018960.857791"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "86"
@@ -224,6 +256,38 @@
             startingLineNumber = "86"
             endingLineNumber = "86"
             landmarkName = "-btnclick"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreAnimation/CoreAnimationVC.m"
+            timestampString = "507021027.849361"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "-keyFrameAnimation"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreAnimation/CoreAnimationVC.m"
+            timestampString = "507021027.849361"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "-animationGroup"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

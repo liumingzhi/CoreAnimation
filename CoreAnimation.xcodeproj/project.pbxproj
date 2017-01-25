@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		754722361E37320E002AC8BA /* CoreAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 754722351E37320E002AC8BA /* CoreAnimationVC.m */; };
 		757C98C01E1DEDD4004B53DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 757C98BF1E1DEDD4004B53DE /* main.m */; };
 		757C98C31E1DEDD4004B53DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 757C98C21E1DEDD4004B53DE /* AppDelegate.m */; };
 		757C98C61E1DEDD4004B53DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757C98C51E1DEDD4004B53DE /* ViewController.m */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		754722341E37320E002AC8BA /* CoreAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationVC.h; sourceTree = "<group>"; };
+		754722351E37320E002AC8BA /* CoreAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationVC.m; sourceTree = "<group>"; };
 		757C98BB1E1DEDD4004B53DE /* CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		757C98BF1E1DEDD4004B53DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		757C98C11E1DEDD4004B53DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,6 +134,8 @@
 				757C98FA1E2521FD004B53DE /* showHiddenVC.m */,
 				757C98FC1E260C8F004B53DE /* UIKitHiddenVC.h */,
 				757C98FD1E260C8F004B53DE /* UIKitHiddenVC.m */,
+				754722341E37320E002AC8BA /* CoreAnimationVC.h */,
+				754722351E37320E002AC8BA /* CoreAnimationVC.m */,
 				757C98F61E1E4D95004B53DE /* CAReplicatorLayerVC.h */,
 				757C98F71E1E4D95004B53DE /* CAReplicatorLayerVC.m */,
 				757C98FF1E2873BC004B53DE /* CAReplicatorMusicVC.h */,
@@ -315,6 +320,7 @@
 				757C98C01E1DEDD4004B53DE /* main.m in Sources */,
 				757C98FE1E260C8F004B53DE /* UIKitHiddenVC.m in Sources */,
 				757C98F81E1E4D95004B53DE /* CAReplicatorLayerVC.m in Sources */,
+				754722361E37320E002AC8BA /* CoreAnimationVC.m in Sources */,
 				757C99011E2873BC004B53DE /* CAReplicatorMusicVC.m in Sources */,
 				757C98FB1E2521FD004B53DE /* showHiddenVC.m in Sources */,
 				757C99041E2DFF1A004B53DE /* CABaseLayerVC.m in Sources */,
