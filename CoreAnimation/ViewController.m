@@ -14,6 +14,7 @@
 #import "CABaseLayerVC.h"
 #import "CoreAnimationVC.h"
 @interface ViewController ()
+@property (nonatomic, strong) NSString *test;
 
 @end
 
