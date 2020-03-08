@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05157A612415229D0089EC4C /* CATransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 05157A602415229D0089EC4C /* CATransitionVC.m */; };
+		05157A6524152AB70089EC4C /* RadarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 05157A6424152AB70089EC4C /* RadarVC.m */; };
+		05157A6C24152C930089EC4C /* LJRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 05157A6724152C920089EC4C /* LJRadarChart.m */; };
+		05157A6D24152C930089EC4C /* LJRadarPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 05157A6924152C920089EC4C /* LJRadarPolygon.m */; };
+		05157A6E24152C930089EC4C /* LJRadar.m in Sources */ = {isa = PBXBuildFile; fileRef = 05157A6B24152C930089EC4C /* LJRadar.m */; };
 		754722361E37320E002AC8BA /* CoreAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 754722351E37320E002AC8BA /* CoreAnimationVC.m */; };
 		757C98C01E1DEDD4004B53DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 757C98BF1E1DEDD4004B53DE /* main.m */; };
 		757C98C31E1DEDD4004B53DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 757C98C21E1DEDD4004B53DE /* AppDelegate.m */; };
@@ -42,6 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05157A5F2415229D0089EC4C /* CATransitionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATransitionVC.h; sourceTree = "<group>"; };
+		05157A602415229D0089EC4C /* CATransitionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransitionVC.m; sourceTree = "<group>"; };
+		05157A6324152AB70089EC4C /* RadarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadarVC.h; sourceTree = "<group>"; };
+		05157A6424152AB70089EC4C /* RadarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarVC.m; sourceTree = "<group>"; };
+		05157A6624152C920089EC4C /* LJRadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRadarChart.h; sourceTree = "<group>"; };
+		05157A6724152C920089EC4C /* LJRadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRadarChart.m; sourceTree = "<group>"; };
+		05157A6824152C920089EC4C /* LJRadar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRadar.h; sourceTree = "<group>"; };
+		05157A6924152C920089EC4C /* LJRadarPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRadarPolygon.m; sourceTree = "<group>"; };
+		05157A6A24152C930089EC4C /* LJRadarPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRadarPolygon.h; sourceTree = "<group>"; };
+		05157A6B24152C930089EC4C /* LJRadar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRadar.m; sourceTree = "<group>"; };
 		754722341E37320E002AC8BA /* CoreAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationVC.h; sourceTree = "<group>"; };
 		754722351E37320E002AC8BA /* CoreAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationVC.m; sourceTree = "<group>"; };
 		757C98BB1E1DEDD4004B53DE /* CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +115,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05157A6224152A570089EC4C /* RadarView */ = {
+			isa = PBXGroup;
+			children = (
+				05157A6824152C920089EC4C /* LJRadar.h */,
+				05157A6B24152C930089EC4C /* LJRadar.m */,
+				05157A6624152C920089EC4C /* LJRadarChart.h */,
+				05157A6724152C920089EC4C /* LJRadarChart.m */,
+				05157A6A24152C930089EC4C /* LJRadarPolygon.h */,
+				05157A6924152C920089EC4C /* LJRadarPolygon.m */,
+				05157A6324152AB70089EC4C /* RadarVC.h */,
+				05157A6424152AB70089EC4C /* RadarVC.m */,
+			);
+			path = RadarView;
+			sourceTree = "<group>";
+		};
 		757C98B21E1DEDD4004B53DE = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +170,9 @@
 				757C98F71E1E4D95004B53DE /* CAReplicatorLayerVC.m */,
 				757C98FF1E2873BC004B53DE /* CAReplicatorMusicVC.h */,
 				757C99001E2873BC004B53DE /* CAReplicatorMusicVC.m */,
+				05157A5F2415229D0089EC4C /* CATransitionVC.h */,
+				05157A602415229D0089EC4C /* CATransitionVC.m */,
+				05157A6224152A570089EC4C /* RadarView */,
 				757C98CA1E1DEDD4004B53DE /* Assets.xcassets */,
 				757C98CC1E1DEDD4004B53DE /* LaunchScreen.storyboard */,
 				757C98CF1E1DEDD4004B53DE /* Info.plist */,
@@ -269,6 +302,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -315,15 +349,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05157A6524152AB70089EC4C /* RadarVC.m in Sources */,
 				757C98C61E1DEDD4004B53DE /* ViewController.m in Sources */,
 				757C98C31E1DEDD4004B53DE /* AppDelegate.m in Sources */,
 				757C98C01E1DEDD4004B53DE /* main.m in Sources */,
 				757C98FE1E260C8F004B53DE /* UIKitHiddenVC.m in Sources */,
 				757C98F81E1E4D95004B53DE /* CAReplicatorLayerVC.m in Sources */,
+				05157A6E24152C930089EC4C /* LJRadar.m in Sources */,
 				754722361E37320E002AC8BA /* CoreAnimationVC.m in Sources */,
+				05157A6D24152C930089EC4C /* LJRadarPolygon.m in Sources */,
 				757C99011E2873BC004B53DE /* CAReplicatorMusicVC.m in Sources */,
 				757C98FB1E2521FD004B53DE /* showHiddenVC.m in Sources */,
 				757C99041E2DFF1A004B53DE /* CABaseLayerVC.m in Sources */,
+				05157A612415229D0089EC4C /* CATransitionVC.m in Sources */,
+				05157A6C24152C930089EC4C /* LJRadarChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

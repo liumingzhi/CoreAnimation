@@ -13,6 +13,8 @@
 #import "CAReplicatorMusicVC.h"
 #import "CABaseLayerVC.h"
 #import "CoreAnimationVC.h"
+#import "CATransitionVC.h"
+#import "RadarVC.h"
 @interface ViewController ()
 @property (nonatomic, strong) NSString *test;
 
@@ -25,7 +27,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     
-    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, self.view.frame.size.width) style:UITableViewStylePlain];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
     tableView.delegate = self;
     tableView.dataSource = self;
     
@@ -40,7 +42,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 6;
+    return 10;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -87,6 +89,10 @@
     {
         cell.textLabel.text = @"CAReplicatorLayer (music)";
 
+    } else if (indexPath.row == 6) {
+        cell.textLabel.text = @"文案翻滚";
+    } else if (indexPath.row == 7) {
+        cell.textLabel.text = @"雷达图";
     }
 
 
@@ -134,7 +140,11 @@
     }
     else if (indexPath.row == 6)
     {
-    
+        CATransitionVC *vc = [[CATransitionVC alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.row == 7) {
+        RadarVC *vc = [[RadarVC alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
     }
 
 
