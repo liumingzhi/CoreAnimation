@@ -12,6 +12,9 @@
 		05157A6C24152C930089EC4C /* LJRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 05157A6724152C920089EC4C /* LJRadarChart.m */; };
 		05157A6D24152C930089EC4C /* LJRadarPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 05157A6924152C920089EC4C /* LJRadarPolygon.m */; };
 		05157A6E24152C930089EC4C /* LJRadar.m in Sources */ = {isa = PBXBuildFile; fileRef = 05157A6B24152C930089EC4C /* LJRadar.m */; };
+		055C4DD0249CBF03003BCD6B /* UIView+LJGRTouchAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 055C4DCF249CBF03003BCD6B /* UIView+LJGRTouchAnimate.m */; };
+		055C4DD3249CBF41003BCD6B /* TouchAnimateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 055C4DD2249CBF41003BCD6B /* TouchAnimateVC.m */; };
+		055C4DD6249CC584003BCD6B /* UIView+TouchIconAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 055C4DD4249CC584003BCD6B /* UIView+TouchIconAnimate.m */; };
 		754722361E37320E002AC8BA /* CoreAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 754722351E37320E002AC8BA /* CoreAnimationVC.m */; };
 		757C98C01E1DEDD4004B53DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 757C98BF1E1DEDD4004B53DE /* main.m */; };
 		757C98C31E1DEDD4004B53DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 757C98C21E1DEDD4004B53DE /* AppDelegate.m */; };
@@ -57,6 +60,12 @@
 		05157A6924152C920089EC4C /* LJRadarPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRadarPolygon.m; sourceTree = "<group>"; };
 		05157A6A24152C930089EC4C /* LJRadarPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRadarPolygon.h; sourceTree = "<group>"; };
 		05157A6B24152C930089EC4C /* LJRadar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRadar.m; sourceTree = "<group>"; };
+		055C4DCE249CBF02003BCD6B /* UIView+LJGRTouchAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LJGRTouchAnimate.h"; sourceTree = "<group>"; };
+		055C4DCF249CBF03003BCD6B /* UIView+LJGRTouchAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LJGRTouchAnimate.m"; sourceTree = "<group>"; };
+		055C4DD1249CBF41003BCD6B /* TouchAnimateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchAnimateVC.h; sourceTree = "<group>"; };
+		055C4DD2249CBF41003BCD6B /* TouchAnimateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchAnimateVC.m; sourceTree = "<group>"; };
+		055C4DD4249CC584003BCD6B /* UIView+TouchIconAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TouchIconAnimate.m"; sourceTree = "<group>"; };
+		055C4DD5249CC584003BCD6B /* UIView+TouchIconAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TouchIconAnimate.h"; sourceTree = "<group>"; };
 		754722341E37320E002AC8BA /* CoreAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationVC.h; sourceTree = "<group>"; };
 		754722351E37320E002AC8BA /* CoreAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationVC.m; sourceTree = "<group>"; };
 		757C98BB1E1DEDD4004B53DE /* CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +181,12 @@
 				757C99001E2873BC004B53DE /* CAReplicatorMusicVC.m */,
 				05157A5F2415229D0089EC4C /* CATransitionVC.h */,
 				05157A602415229D0089EC4C /* CATransitionVC.m */,
+				055C4DD1249CBF41003BCD6B /* TouchAnimateVC.h */,
+				055C4DD2249CBF41003BCD6B /* TouchAnimateVC.m */,
+				055C4DCE249CBF02003BCD6B /* UIView+LJGRTouchAnimate.h */,
+				055C4DCF249CBF03003BCD6B /* UIView+LJGRTouchAnimate.m */,
+				055C4DD5249CC584003BCD6B /* UIView+TouchIconAnimate.h */,
+				055C4DD4249CC584003BCD6B /* UIView+TouchIconAnimate.m */,
 				05157A6224152A570089EC4C /* RadarView */,
 				757C98CA1E1DEDD4004B53DE /* Assets.xcassets */,
 				757C98CC1E1DEDD4004B53DE /* LaunchScreen.storyboard */,
@@ -283,7 +298,8 @@
 				TargetAttributes = {
 					757C98BA1E1DEDD4004B53DE = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = XW5558TH45;
+						ProvisioningStyle = Manual;
 					};
 					757C98D31E1DEDD5004B53DE = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -349,12 +365,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				055C4DD6249CC584003BCD6B /* UIView+TouchIconAnimate.m in Sources */,
 				05157A6524152AB70089EC4C /* RadarVC.m in Sources */,
 				757C98C61E1DEDD4004B53DE /* ViewController.m in Sources */,
 				757C98C31E1DEDD4004B53DE /* AppDelegate.m in Sources */,
 				757C98C01E1DEDD4004B53DE /* main.m in Sources */,
 				757C98FE1E260C8F004B53DE /* UIKitHiddenVC.m in Sources */,
 				757C98F81E1E4D95004B53DE /* CAReplicatorLayerVC.m in Sources */,
+				055C4DD3249CBF41003BCD6B /* TouchAnimateVC.m in Sources */,
 				05157A6E24152C930089EC4C /* LJRadar.m in Sources */,
 				754722361E37320E002AC8BA /* CoreAnimationVC.m in Sources */,
 				05157A6D24152C930089EC4C /* LJRadarPolygon.m in Sources */,
@@ -363,6 +381,7 @@
 				757C99041E2DFF1A004B53DE /* CABaseLayerVC.m in Sources */,
 				05157A612415229D0089EC4C /* CATransitionVC.m in Sources */,
 				05157A6C24152C930089EC4C /* LJRadarChart.m in Sources */,
+				055C4DD0249CBF03003BCD6B /* UIView+LJGRTouchAnimate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,11 +520,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XW5558TH45;
 				INFOPLIST_FILE = CoreAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-1.CoreAnimation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianjia.beike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.lianjia.beike";
 			};
 			name = Debug;
 		};
@@ -513,11 +535,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XW5558TH45;
 				INFOPLIST_FILE = CoreAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-1.CoreAnimation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianjia.beike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.lianjia.beike";
 			};
 			name = Release;
 		};

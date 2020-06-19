@@ -15,6 +15,7 @@
 #import "CoreAnimationVC.h"
 #import "CATransitionVC.h"
 #import "RadarVC.h"
+#import "TouchAnimateVC.h"
 @interface ViewController ()
 @property (nonatomic, strong) NSString *test;
 
@@ -64,12 +65,10 @@
     if (indexPath.row == 0)
     {
         cell.textLabel.text = @"CALayer基础使用";
-
     }
     else if (indexPath.row == 1)
     {
         cell.textLabel.text = @"显式&隐式动画";
-
     }
     else if (indexPath.row == 2)
     {
@@ -83,7 +82,6 @@
     else if (indexPath.row == 4)
     {
         cell.textLabel.text = @"CAReplicatorLayer (love)";
-
     }
     else if (indexPath.row == 5)
     {
@@ -93,6 +91,10 @@
         cell.textLabel.text = @"文案翻滚";
     } else if (indexPath.row == 7) {
         cell.textLabel.text = @"雷达图";
+    } else if (indexPath.row == 8) {
+        cell.textLabel.text = @"点击缩小/声音震动/点击闪烁";
+    } else if (indexPath.row == 9) {
+
     }
 
 
@@ -144,6 +146,9 @@
         [self.navigationController pushViewController:vc animated:YES];
     } else if (indexPath.row == 7) {
         RadarVC *vc = [[RadarVC alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.row == 8) {
+        TouchAnimateVC *vc = [[TouchAnimateVC alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 
